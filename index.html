@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ilene Vuong Portfolio</title>
 </head>
 <body>
     <div class="head-flex">
         <img class="logo" src="" alt="logo">
         <h1>Ilene Vuong Portfolio</h1>
-        <nav>
-            <p>x</p>
+        <!-- <nav>
+            <p class="x">x</p>
             <ul class="nav">
                 <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio ⮟</a>
+                <li><a href="portfolio.html">Portfolio</a>⮟
                     <ul class="sub-nav">
                         <li><a href="programming.html">Web/Programming</a></li>
                         <li><a href="writing.html">Writing</a></li>
@@ -24,8 +25,45 @@
                 </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>   
+        </nav>    -->
     </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">x</button>
+        <div class="dropdown-content">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Resume</a>
+        <div class="dropdown2">
+            <button class="dropbtn2"><a href="portfolio.html">Portfolio</a></button>
+            <div class="dropdown-content2">
+                <a href="#">Web & Programming</a>
+                <a href="#">Personal Work</a>  
+                <a href="#">Writing</a>
+            </div>
+        </div>
+        <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">x</button>
+        <div class="dropdown-content">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Resume</a>
+        <a class="drop" href="portfolio.html">Portfolio</a>
+            <span class="dropdown-content2">
+                <a href="#">Web & Programming</a>
+                <a href="#">Personal Work</a>  
+                <a href="#">Writing</a>
+            </span>
+        <a href="#">Contact</a>
+        </div>
+    </div>
+
+
+
     <img src="" alt="hero1">
     <img src="" alt="hero2">
     <img src="" alt="hero3">

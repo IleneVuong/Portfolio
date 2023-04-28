@@ -1,4 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Bebas+Neue&family=Bitter:wght@400;500;700&family=Buenard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Bebas+Neue&family=Bitter:wght@400;500;700&family=Buenard&family=Playfair+Display+SC&display=swap');
 img {
     width:20%;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#E5E5E5;
+}
+
+h1 {
+    font-family:'playfair display sc', sans-serif;
+    font-size:1.5vw;
+}
+
+.head-flex {
+    display:flex;
+    flex:wrap;
+    justify-content: center;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn2 {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown,
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content2 {
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a,
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content2 a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .drop:hover .dropdown-content2 {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
