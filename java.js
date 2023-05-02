@@ -10,6 +10,39 @@ let colors = [
 ]
 
 function hoverIn(x) {
-    
-    x.style.color = Math.round(Math.random() * colors.length -.5);
+    v = Math.round(Math.random() * colors.length -.5);
+    colorIndex = colors[v];
+    x.style.color = colorIndex;
+    x.style.transition = '.3s ease';
 }
+
+// function hoverOut(x) {
+//     x.style.color = "black";
+// }
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
