@@ -118,6 +118,12 @@ h1 {
   to {opacity:1}
 }
 
+.marquee {
+  height:50px;
+  overflow:hidden;
+  position:relative;
+}
+
 
 
 
