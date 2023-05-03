@@ -17,8 +17,10 @@ function hoverIn(x) {
 }
 
 // function hoverOut(x) {
-//     x.style.color = "black";
+//   x.transition = '20s ease';
+//   x.style.color = 'black';
 // }
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -45,4 +47,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
 
