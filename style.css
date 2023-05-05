@@ -16,27 +16,50 @@ body {
     background-color:#E5E5E5;
 }
 
-.dropdown {
+.nav {
   display:flex;
   font-family:'buenard', sans-serif;
+  margin-left:27vw;
 }
 
-.dropdown a {
+.nav a {
   margin: 0 3vw;
   text-decoration:none;
   color:black;
   font-size:1.2vw;
 }
 
+.logo {
+  width:6vw;
+  margin-left:1vw;
+  position:relative;
+  bottom:.5vw;
+}
+
+.nav a:hover,
+.navport:hover,
+.subnav:hover {
+  transform:scale(1.1);
+  transition:.2s ease;
+  color:#8e1e1e;
+}
+
 .head-flex {
     display:flex;
     flex:wrap;
-    margin-top:1vw;
-    margin-bottom:2vw;
+    padding-top:1vw;
+    /* padding-bottom:1vw; */
+    margin-bottom:4vw;
+    /* background-color:#d9dade; */
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.137);
+    justify-content: space-between;
 }
 
 .navport {
-  position:relative;
+  display:inline-block;
+}
+
+.dropdown {
   display:inline-block;
 }
 
@@ -44,9 +67,13 @@ body {
   display:none;
   position:absolute;
   z-index:1;
+  background-color:#E5E5E5;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.137);
+  padding-bottom:.5vw;
+  max-width:17vw;
 }
 
-.navport:hover .port-content {
+.dropdown:hover .port-content {
   display:block;
 }
 
@@ -110,8 +137,7 @@ body {
 }
 
 .next {
-  /* right:10vw; */
-  left:43vw;
+  right:0;
   border-radius:3px 0 0 3px;
 }
 
@@ -193,7 +219,7 @@ body {
   width:100%;
  }
 
- h3 {
+.name {
   font-family:'buenard', sans-serif;
   font-size:3vw;
   text-align: center;
@@ -227,13 +253,14 @@ body {
   height:15vw;
   color:#161616;
   margin-left:2vw;
-  margin-top:7vw;
+  margin-top:6.5vw;
  }
 
  .index-intro p {
-  padding-top:2vw;
+  padding-top:0vw;
   margin: 0 3vw;
   font-size:1.4vw;
+  font-family: 'be vietnam pro', sans-serif;
  }
 
  .aboutmebutton {
@@ -425,3 +452,51 @@ footer {
   color:white;
 }
 
+/* about page */
+.abouth2 {
+  text-align:center; 
+  font-family: 'bebas neue', sans-serif;
+  font-size:6vw;
+  letter-spacing:.3vw;
+}
+
+.about-intro {
+  margin: 0 22vw;
+}
+
+.about-subhead {
+  font-family: 'buenard', sans-serif;
+  text-align: center;
+  font-size:2vw;
+  font-weight:500;
+  margin-top:5vw;
+  margin-bottom:5vw;
+}
+
+.awards {
+  display:flex;
+  padding: 2vw 20vw;
+  margin-bottom:2vw;
+}
+
+.awards h4 {
+  font-size:1.5vw;
+  font-family: 'be vietnam pro', sans-serif;
+  font-weight:normal;
+  padding-top:3vw;
+  padding-left:4vw;
+}
+
+.awards2 h4 {
+  position:relative;
+  top:2vw;
+}
+
+@keyframes slide {
+  0% {
+    transform:translate3d(0,0,0);
+  } 
+  100% {
+    transform: translate3d(1602px, 0, 0);
+  }
+}
