@@ -425,3 +425,73 @@ footer {
   color:white;
 }
 
+/* programming page */ 
+ .programh2 {
+  font-family:'bebas neue', sans-serif;
+  text-align:center;
+  font-size:5vw;
+ }
+
+ .subh4 {
+  font-family: 'buenard', sans-serif;
+  font-weight:normal;
+  letter-spacing:.1vw;
+  text-align: center;
+ }
+
+ .programh3 {
+  font-family:'bebas neue', sans-serif;
+  letter-spacing:.2vw;
+ }
+
+ .flex {
+  display:flex;
+  flex:wrap;
+  justify-content: center;
+  margin: 0 22vw 0 14vw;
+ }
+
+ .flex img {
+  width:40vw;
+ }
+
+ .layout-flex h3,
+ .dino-flex h3 {
+  position:relative;
+  top:17vw;
+  left:8vw;
+  font-size:4vw;
+ }
+
+ .layout-sect p {
+  background-color:#E6BF86;
+  margin: 1vw 22vw;
+  height:12vw;
+  padding: 1vw 2vw;
+  font-size:1.1vw;
+ }
+
+ .layout-sect {
+  margin-top:5vw;
+ }
+
+ .layout-flex h3 {
+  color:#BF852F;
+  /* text-shadow: 2px 2px 3px rgb(189, 186, 186); */
+  /* text-shadow: .1vw .15vw #58544d; */
+ }
+
+ .layoutbtn {
+  position:relative;
+  top:2vw;
+  border:none;
+  background-color:transparent;
+ }
+
+ .layoutlink {
+  font-family:'bebas neue', sans-serif;
+  text-decoration:none;
+  font-size:1.4vw;
+ }
+
+
