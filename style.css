@@ -2,6 +2,7 @@
 img {
     width:20%;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -354,7 +355,7 @@ background-color:#687E7C;
 .coco h2,
 .veldt h2, 
 .contact h2,
-.resume h2{
+.resume h2 {
   text-align:center;
   position:relative;
   top:6.5vw;
@@ -450,6 +451,128 @@ footer {
   background-color:#161616;
   margin-top:5vw;
   color:white;
+}
+
+/* programming page */ 
+ .programh2,
+ .writingh2 {
+  font-family:'bebas neue', sans-serif;
+  text-align:center;
+  font-size:5vw;
+ }
+
+ .subh4 {
+  font-family: 'buenard', sans-serif;
+  font-weight:normal;
+  letter-spacing:.1vw;
+  text-align: center;
+ }
+
+ .programh3 {
+  font-family:'bebas neue', sans-serif;
+  letter-spacing:.2vw;
+  font-size:4vw;
+  height:4.5vw;
+ }
+
+ .flex {
+  display:flex;
+  flex:wrap;
+  /* justify-content: center; */
+  /* margin: 0 0 0 0vw; */
+ }
+
+ .flex img {
+  width:40vw;
+ }
+
+ .layout-flex h3,
+ .dino-flex h3 {
+  position:relative;
+  top:17vw;
+  left:8vw;
+  font-size:4vw;
+ }
+
+ .layout-flex {
+  margin-right:0;
+  margin-left:14vw;
+ }
+
+ .dino-flex {
+  margin-left:1.6vw;
+ }
+
+ .reduce-flex,
+ .visai-flex {
+  margin: 0  0 0 22vw;
+ }
+
+ .dino-flex h3 {
+  left:20.5vw;
+ }
+
+ .layout-sect p,
+ .dino-sect p,
+ .reduce-sect p,
+ .visai-sect p {
+  background-color:#E6BF86;
+  margin: 1vw 22vw;
+  height:auto;
+  padding: 1vw 2vw 3vw 2vw;
+  font-size:1.1vw;
+ }
+
+ .reduce-flex h3,
+ .visai-flex h3 {
+  position:relative;
+  top:17vw;
+ }
+
+ .reduce-flex h3 {
+  right:8vw;
+ }
+
+ .visai-flex h3 {
+  right:16vw;
+ }
+
+ .layout-sect {
+  margin-top:5vw;
+ }
+
+ .layout-flex h3 {
+  color:#BF852F;
+  /* text-shadow: 2px 2px 3px rgb(189, 186, 186); */
+  /* text-shadow: .1vw .15vw #58544d; */
+ }
+
+ .btn {
+  position:relative;
+  top:1vw;
+  right:1vw;
+  border:none;
+  background-color:transparent;
+  float:right;
+ }
+
+ .weblink {
+  font-family:'bebas neue', sans-serif;
+  text-decoration:none;
+  font-size:1.4vw;
+ }
+
+.veldt-flex,
+.ballon-flex {
+  display:flex;
+  flex:wrap;
+  margin: 0 22vw;
+}
+
+.veldt-flex h3,
+.balloon-flex h3 {
+  letter-spacing:normal;
+  font-family: 'bebas neue', sans-serif;
 }
 
 /* about page */

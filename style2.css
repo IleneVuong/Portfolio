@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Bebas+Neue&family=Bitter:wght@400;500;700&family=Buenard&family=Playfair+Display+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size:1.2vw;
+}
+
+body {
+    background-color:#E5E5E5;
+    font-family:'bitter', sans-serif;
+}
+
+.name-number,
+.location-email,
+.pdf {
+ display:flex;
+ flex:wrap;
+ justify-content: space-between;
+}
+
+li {
+    font-size:1.2vw;
+}
+
+ .resumeh2{
+  font-family:'bebas neue', sans-serif;
+  text-align:center;
+  font-size:5vw;
+ }
+
+ .whole {
+    margin: 0 5vw;
+ }
+
+ .objective {
+    padding-top:2vw;
+ }
+
+ .slight-bold {
+    font-weight:500;
+ }
+
+ .sub {
+    margin-left:2vw;
+ }
+
+ .lasthr {
+    margin:1vw 0;
+ }
+ 
+ li {
+    margin-left:2vw;
+ }
+
+ img {
+    width:2vw;
+ }
+
+ .letterpdf,
+ .resumepdf {
+    display:flex;
+    flex:wrap;
+ }
+
+ .pdfp {
+    padding-top:.5vw;
+    margin-left:.5vw;
+ }
+
+ a {
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    position:relative;
+ }
+
+ .pdfp a::after {
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    background-color:rgb(0, 0, 0);
+    transform-origin: bottom center;
+    transition: transform .2s ease-out;
+ }
+
+ .pdfp a:hover::after {
+    transform:scaleX(1);
+    transform-origin:bottom center;
+ }
