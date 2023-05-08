@@ -2,6 +2,7 @@
 img {
     width:20%;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -327,7 +328,7 @@ background-color:#687E7C;
 .coco h2,
 .veldt h2, 
 .contact h2,
-.resume h2{
+.resume h2 {
   text-align:center;
   position:relative;
   top:6.5vw;
@@ -426,7 +427,8 @@ footer {
 }
 
 /* programming page */ 
- .programh2 {
+ .programh2,
+ .writingh2 {
   font-family:'bebas neue', sans-serif;
   text-align:center;
   font-size:5vw;
@@ -442,13 +444,15 @@ footer {
  .programh3 {
   font-family:'bebas neue', sans-serif;
   letter-spacing:.2vw;
+  font-size:4vw;
+  height:4.5vw;
  }
 
  .flex {
   display:flex;
   flex:wrap;
-  justify-content: center;
-  margin: 0 22vw 0 14vw;
+  /* justify-content: center; */
+  /* margin: 0 0 0 0vw; */
  }
 
  .flex img {
@@ -463,12 +467,47 @@ footer {
   font-size:4vw;
  }
 
- .layout-sect p {
+ .layout-flex {
+  margin-right:0;
+  margin-left:14vw;
+ }
+
+ .dino-flex {
+  margin-left:1.6vw;
+ }
+
+ .reduce-flex,
+ .visai-flex {
+  margin: 0  0 0 22vw;
+ }
+
+ .dino-flex h3 {
+  left:20.5vw;
+ }
+
+ .layout-sect p,
+ .dino-sect p,
+ .reduce-sect p,
+ .visai-sect p {
   background-color:#E6BF86;
   margin: 1vw 22vw;
-  height:12vw;
-  padding: 1vw 2vw;
+  height:auto;
+  padding: 1vw 2vw 3vw 2vw;
   font-size:1.1vw;
+ }
+
+ .reduce-flex h3,
+ .visai-flex h3 {
+  position:relative;
+  top:17vw;
+ }
+
+ .reduce-flex h3 {
+  right:8vw;
+ }
+
+ .visai-flex h3 {
+  right:16vw;
  }
 
  .layout-sect {
@@ -481,17 +520,31 @@ footer {
   /* text-shadow: .1vw .15vw #58544d; */
  }
 
- .layoutbtn {
+ .btn {
   position:relative;
-  top:2vw;
+  top:1vw;
+  right:1vw;
   border:none;
   background-color:transparent;
+  float:right;
  }
 
- .layoutlink {
+ .weblink {
   font-family:'bebas neue', sans-serif;
   text-decoration:none;
   font-size:1.4vw;
  }
 
+.veldt-flex,
+.ballon-flex {
+  display:flex;
+  flex:wrap;
+  margin: 0 22vw;
+}
+
+.veldt-flex h3,
+.balloon-flex h3 {
+  letter-spacing:normal;
+  font-family: 'bebas neue', sans-serif;
+}
 
