@@ -7,45 +7,48 @@
     <link rel="stylesheet" href="style.css">
     <title>Ilene Vuong Portfolio</title>
 </head>
-<body>
-    <div class="head-flex">
-        <img class="logo" src="" alt="logo">
-        <h1>Ilene Vuong Portfolio</h1>
-        <nav>
-            <p>x</p>
-            <ul class="nav">
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio ⮟</a>
-                    <ul class="sub-nav">
-                        <li><a href="programming.html">Web/Programming</a></li>
-                        <li><a href="writing.html">Writing</a></li>
-                        <li><a href="personal.html">Personal Work</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>   
+<body class="writingbody">
+    <div class="head-flex writing-headflex">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <!-- <h1>Ilene Vuong Portfolio</h1> -->
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <div class="dropdown">
+                <a class="navport" href="portfolio.html">Portfolio</a>
+                <div class="port-content">
+                    <a class="subnav" href="programming.html">Web & Programming</a>
+                    <a class="subnav" href="personal.html">Personal Work</a>
+                    <a class="subnav" href="writing.html">Writing</a>   
+                </div>    
+            </div>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
+
+<div class="contain">
     <h2 class="writingh2">Writing</h2>
-    <h4 class="subh4">THE VELDT • THE RED BALLOON</h4>
+    <h4 class="writingsub subh4">THE VELDT • THE RED BALLOON</h4>
     <div class="veldt-flex">
-        <img src="" alt="">
-        <div>
+        <img src="images/veldt.png" alt="">
+        <div class="veldt-content">
             <h3>The Veldt Poster</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla soluta minus, veniam eaque, magnam animi, velit quibusdam corporis quae quidem explicabo voluptas blanditiis at est suscipit voluptate harum. Ipsum.</p>
+            <p>In Web Applications, I read a short story called The Veldt, written by Ray Bradbury, a cautionary story about the threatening effects of technology. Set in the future, the story follows a typical family of four as the readers explore their daily life and discover the way technology changed their family dynamic. To convey that I was capable of analyzing text and communicating it clearly in a simplistic way,  I created a poster on the effects of technology on the family using quotes from the story. Using expository writing techniques, I found two quotes that I felt were the more effective examples to showcase, along with images that assisted in expressing the message. </p>
         </div>
     </div>
     <div class="balloon-flex">
-        <div >
+        <div class="balloon-content">
             <h3>The Red Balloon</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae consectetur numquam fugiat nisi, ex id quis suscipit dolore autem cupiditate molestias! Neque harum accusamus corrupti, consequuntur alias obcaecati cupiditate.</p>   
+            <p>The Red Balloon Newspaper is an assignment designed to showcase my skills in journalistic writing. In the assignment, I created a fictional newspaper outlet whose purpose is to outline and appreciate different aspects of film that might have been overlooked by viewers. In this particular section of the newspaper, I summarized the short film, The Red Balloon, directed and written by Albert Lamorisse, and described an interpretation of the theme Lamorisse could have intended to express. In this assignment, I practiced writing in third person with the demographics of my audience in mind.</p>   
         </div>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="balloon-imgs">
+            <img class="ball-img1" src="images/tribunefront.png" alt="">
+            <img class="ball-img2"src="images/tribuneback.png" alt="">
         </div>   
     </div>
+</div>
+    
     <footer>
         <ul>
             <li>About Me</li>

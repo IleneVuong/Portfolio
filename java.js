@@ -48,12 +48,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function awardsHover1(x) {
-  x.style.backgroundColor = '#B3837C';
-  x.style.animation = 'slide 2s ease-in-out';
-}
+// function awardsHover1(x) {
+//   x.style.backgroundColor = '#B3837C';
+//   x.style.animation = 'slide 2s ease-in-out';
+// }
 
-function awardsOut1(x) {
-  x.style.backgroundColor = '#e5e5e5';
-}
+// function awardsOut1(x) {
+//   x.style.backgroundColor = '#e5e5e5';
+// }
 

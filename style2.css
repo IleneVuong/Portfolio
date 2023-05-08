@@ -13,6 +13,67 @@ body {
     font-family:'bitter', sans-serif;
 }
 
+.nav {
+   display:flex;
+   font-family:'buenard', sans-serif;
+   margin-left:27vw;
+ }
+ 
+ .nav a {
+   margin: 0 3vw;
+   text-decoration:none;
+   color:black;
+   font-size:1.2vw;
+ }
+ 
+ .logo {
+   width:6vw;
+   margin-left:1vw;
+   position:relative;
+   bottom:.5vw;
+ }
+ 
+ .nav a:hover,
+ .navport:hover,
+ .subnav:hover {
+   transform:scale(1.1);
+   transition:.2s ease;
+   color:#8e1e1e;
+ }
+
+ .head-flex {
+   display:flex;
+   flex:wrap;
+   padding-top:1vw;
+   /* padding-bottom:1vw; */
+   margin-bottom:4vw;
+   /* background-color:#d9dade; */
+   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.137);
+   justify-content: space-between;
+}
+
+.navport {
+ display:inline-block;
+}
+
+.dropdown {
+ display:inline-block;
+}
+
+.port-content {
+ display:none;
+ position:absolute;
+ z-index:1;
+ background-color:#E5E5E5;
+ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.137);
+ padding-bottom:.5vw;
+ max-width:17vw;
+}
+
+.dropdown:hover .port-content {
+ display:block;
+}
+
 .name-number,
 .location-email,
 .pdf {
@@ -93,4 +154,11 @@ li {
  .pdfp a:hover::after {
     transform:scaleX(1);
     transform-origin:bottom center;
+ }
+
+ .resumeh2 {
+   text-align:center; 
+   font-family: 'bebas neue', sans-serif;
+   font-size:6vw;
+   letter-spacing:.3vw;
  }
