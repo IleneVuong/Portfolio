@@ -162,3 +162,32 @@ li {
    font-size:6vw;
    letter-spacing:.3vw;
  }
+
+ /* footer */
+
+.footer-nav {
+   margin:0;
+   margin-top:2vw;
+   padding:0;
+   float:right;
+   text-align:right;
+ }
+ 
+ .footer-logo {
+   margin-top:2vw;
+ }
+ 
+ footer {
+   background-color:#948f8f;
+   margin-top:5vw;
+   color:white;
+   height:20vw;
+ }
+ 
+ .footer-content p {
+   font-size:1.3vw;
+   color:black;
+   margin-left:2vw;
+   margin-top:.9vw;
+ }
+ 

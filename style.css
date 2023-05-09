@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Bebas+Neue&family=Bitter:wght@400;500;700&family=Buenard&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 img {
     width:20%;
 }
@@ -447,12 +448,6 @@ background-color:#687E7C;
   top:3vw;
 }
 
-footer {
-  background-color:#161616;
-  margin-top:5vw;
-  color:white;
-}
-
 /* programming page */ 
  .programh2,
  .writingh2 {
@@ -510,7 +505,7 @@ footer {
 
  .dino-flex h3 {
   left:20.5vw;
-  color:#681818;
+  color:#b91d1d;
  }
 
  .layout-sect p,
@@ -531,6 +526,7 @@ footer {
 
  .reduce-sect p {
   background-color:#9FB8B2;
+  padding-bottom:4vw;
  }
 
  .visai-sect p {
@@ -576,6 +572,11 @@ footer {
   font-family:'bebas neue', sans-serif;
   text-decoration:none;
   font-size:1.4vw;
+  color:black;
+ }
+
+ .weblink:hover {
+  color:rgb(184, 16, 49);
  }
 
  /* writing page */
@@ -660,17 +661,14 @@ footer {
   letter-spacing:.1vw;
 }
 
-.writingh2,
-.writingsub {
-  color:#E5E5E5;
-}
-
 /* about page */
-.abouth2 {
+.abouth2, 
+ .porth2 {
   text-align:center; 
   font-family: 'bebas neue', sans-serif;
   font-size:6vw;
   letter-spacing:.3vw;
+  margin: 0 22vw;
 }
 
 .about-intro {
@@ -790,3 +788,275 @@ h5 {
   width:15vw;
 }
 
+/* personal */
+.personalh3 {
+  text-align:center; 
+  font-family: 'bebas neue', sans-serif;
+  font-size:6vw;
+  letter-spacing:.3vw;
+  margin: 0 22vw;
+}
+
+.coco-flex {
+  display:flex;
+  flex:wrap;
+  margin: 0 22vw;
+  margin-top:4vw;
+}
+
+.coco-imgs img {
+  width:25vw;
+  margin-bottom:.5vw;
+  padding:.5vw;
+  background-color:#B0B5C6;
+}
+
+.coco-content {
+  margin-left:.5vw;
+  padding-left:4vw;
+}
+
+.coco-content h3,
+.bellesh3 {
+  font-family:"bebas neue", sans-serif;
+  font-size:3vw;
+  color:#848daa;
+}
+
+.bellesh3 {
+  text-align: center;
+  margin-top:7vw;
+  margin-bottom:3vw;
+  color:#dd9d9d;
+}
+
+.coco-content p,
+.belles-content p {
+  font-size:1.35vw;
+}
+
+.star {
+  position:relative;
+}
+
+.btn-coco {
+  float:left;
+  margin-left:1vw;
+  background-color:#B0B5C6;
+  padding: .5vw;
+}
+
+.btn-coco a {
+  font-family: "buenard", sans-serif;
+  color:black;
+}
+
+.star1 {
+  width:2vw;
+  top:2vw;
+  right:4vw;
+}
+
+.star2 {
+  right:3vw;
+  width:4vw;
+  top:2vw;
+  right:3vw;
+}
+
+.belles-flex {
+  display:flex;
+  flex:wrap;
+  margin: 0 22vw;
+}
+
+.belles-imgs img {
+  width:25vw;
+  margin-bottom:.5vw;
+  background-color:#f1c9c2;
+  padding:.5vw;
+}
+
+.belles-imgs {
+  padding-top:.5vw;
+}
+
+.belles-content p {
+  margin-right:4vw;
+}
+
+.comment-flex h3 {
+  font-family:'lily script one',sans-serif;
+  color:#A98080;
+  font-size:10vw;
+  position:relative;
+}
+
+.question {
+  bottom:4vw;
+  left:1vw;
+}
+
+.exclaim {
+  top:2vw;
+}
+
+.comment-flex h2 {
+  font-family:'bebas neue', sans-serif;
+  color:#E5E5E5;
+  font-size:5vw;
+  letter-spacing: .1vw;
+  text-align: center;
+}
+
+.comment-flex {
+  display:flex;
+  flex:wrap;
+  justify-content: center;
+}
+
+form {
+  margin: 0 28vw;
+  background-color:#E4E4E4;
+  padding: 2vw 0 3vw 0;
+}
+
+.contactbody {
+  padding-bottom:6vw;
+}
+
+label {
+  font-family: "buenard", sans-serif;
+  font-size:1.5vw;
+  padding-left:2vw;
+}
+
+.fullname,
+.email,
+.message {
+  margin-bottom:1vw;
+}
+
+.email input,
+.fullname input {
+  width:30.5vw;
+}
+
+input {
+  font-size:1.2vw;
+}
+
+.message label {
+  padding:0 12vw;
+}
+
+.message {
+  padding: 0 6vw;
+}
+
+.message input {
+  width:30vw;
+  height:5vw;
+  text-align: start;
+}
+
+.submit {
+  float:right;
+  margin-right:7vw;
+  padding: .2vw .5vw;
+  font-family: "buenard", sans-serif;
+}
+
+.or,
+.direct {
+  text-align:center; 
+  font-family: 'bebas neue', sans-serif;
+  font-size:6vw;
+  letter-spacing:.3vw;
+  margin: 3vw 22vw;
+}
+
+.direct {
+  color:#097158;
+  margin-bottom:4vw;
+}
+
+.mail,
+.text {
+  font-family: "buenard", sans-serif;
+  text-align: center;
+  font-size:2vw;
+  margin: 1vw 0;
+}
+
+/* portfolio page */
+.year {
+  font-family:'be vietnam pro', sans-serif;
+  font-weight:normal;
+  text-align: center;
+  font-size:1.5vw;
+}
+
+.web,
+.write,
+.person {
+  display:flex;
+  flex:wrap;
+  justify-content: center;
+  background-color:#C6B5A9;
+  padding: 6vw 0;
+  margin: 4vw 0;
+}
+
+.write {
+  background-color:#B0B5C6;
+}
+
+.person {
+  background-color:#91A59F;
+}
+
+.web a,
+.person a,
+.write a {
+  font-family:'be vietnam pro', sans-serif;
+  font-size:4vw;
+  color:#584848;
+  text-decoration:none;
+}
+
+.web h4,
+.person h4,
+.write h4 {
+  margin-left:5vw;
+  font-size:4vw;
+  color:#584848;
+}
+
+/* footer */
+
+.footer-nav {
+  margin:0;
+  margin-top:2vw;
+  padding:0;
+  float:right;
+  text-align:right;
+}
+
+.footer-logo {
+  margin-top:2vw;
+}
+
+footer {
+  background-color:#948f8f;
+  margin-top:5vw;
+  color:white;
+  height:20vw;
+}
+
+.footer-content p {
+  font-size:1.5vw;
+  color:black;
+  margin-left:2vw;
+  margin-top:.5vw;
+}

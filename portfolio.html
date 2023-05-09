@@ -4,53 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ilene Vuong Portfolio</title>
 </head>
 <body>
     <div class="head-flex">
-        <img class="logo" src="" alt="logo">
-        <h1>Ilene Vuong Portfolio</h1>
-        <nav>
-            <p>x</p>
-            <ul class="nav">
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio ⮟</a>
-                    <ul class="sub-nav">
-                        <li><a href="programming.html">Web/Programming</a></li>
-                        <li><a href="writing.html">Writing</a></li>
-                        <li><a href="personal.html">Personal Work</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>   
+        <img class="logo" src="images/logo.png" alt="logo">
+        <!-- <h1>Ilene Vuong Portfolio</h1> -->
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <div class="dropdown">
+                <a class="navport" href="portfolio.html">Portfolio</a>
+                <div class="port-content">
+                    <a class="subnav" href="programming.html">Web & Programming</a>
+                    <a class="subnav" href="personal.html">Personal Work</a>
+                    <a class="subnav" href="writing.html">Writing</a>   
+                </div>    
+            </div>
+            <a href="contact.html">Contact</a>
+        </div>
     </div>
-    <h2>Portfolio</h2>
-    <h4>2022-2023</h4>
-    <div>
-        <h3>Web & Programming</h3>
-        <h3>→</h3>
+    <h2 class="porth2">Portfolio</h2>
+    <h4 class="year">2022-2023</h4>
+    <div class="web">
+        <h3><a href="programming.html">Web & Programming</a> </h3>
+        <h4>→</h4>
     </div>
-    <div>
-        <h3>Writing</h3>
-        <h3>→</h3>
+    <div class="write">
+        <h3><a href="writing.html">Writing</a></h3>
+        <h4>→</h4>
     </div>
-    <div>
-        <h3>Personal Projects</h3>
-        <h3>→</h3>
+    <div class="person">
+        <h3><a href="personal.html">Personal Projects</a></h3>
+        <h4>→</h4>
     </div>
     <footer>
-        <ul>
-            <li>About Me</li>
-            <li>Resume</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
-        <p>Ilene Vuong</p>
-        <p>Ilenevuong2005@hotmail.com</p>
-        <p>LinkedIn:</p>
-        <p>ⓒ All rights reserved, also I don’t really know how copyright works</p>
+        <a href="index.html"><img class="logo footer-logo" src="images/logo.png" alt="logo"></a>
+        <!-- <h1>Ilene Vuong Portfolio</h1> -->
+        <div class=" nav footer-nav">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a class="navport" href="portfolio.html">Portfolio</a>
+            <a class="subnav" href="programming.html">Web & Programming</a>
+            <a class="subnav" href="personal.html">Personal Work</a>
+            <a class="subnav" href="writing.html">Writing</a>   
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-content">
+            <p>Ilene Vuong</p>
+            <p>Ilenevuong2005@hotmail.com</p>
+            <p>LinkedIn: Ilene Vuong</p>
+            <p>ⓒ Ilene Vuong 2023</p>
+        </div>
     </footer>
     </body>
     </html>
