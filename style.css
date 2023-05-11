@@ -294,27 +294,30 @@ body {
  }
 
 .exploreprojectsa,
-.aboutmebutton {
+.aboutmebutton,
+.btn a {
   display:inline-block;
   position:relative;
 }
 
 .exploreprojectsa::after,
-.aboutmebutton::after {
+.aboutmebutton::after,
+.btn a::after {
   content:'';
   position:absolute;
   width:100%;
   transform:scaleX(0);
-  height:2px;
+  height:.1vw;
   bottom:0;
   left:0;
-  background-color:rgb(105, 46, 46);
+  background-color:rgb(50, 48, 48);
   transform-origin: bottom right;
   transition: transform .25s ease-out;
 }
 
 .exploreprojectsa:hover::after,
-.aboutmebutton:hover::after {
+.aboutmebutton:hover::after,
+.btn a:hover::after {
   transform:scaleX(1);
   transform-origin:bottom left;
 }
@@ -410,6 +413,7 @@ background-color:#687E7C;
 .reduce h2:hover,
 .dinos h2:hover {
   transform: scale(1.2);
+  background-color: green;
   transition: transform .2s;
 }
 
@@ -512,7 +516,7 @@ background-color:#687E7C;
  .dino-sect p,
  .reduce-sect p,
  .visai-sect p {
-  background-color:#E6BF86;
+  background-color:#ebc996;
   margin: 1vw 22vw;
   height:auto;
   padding: 1vw 2vw 3vw 2vw;
@@ -575,10 +579,23 @@ background-color:#687E7C;
   color:black;
  }
 
- .weblink:hover {
-  color:rgb(184, 16, 49);
+ .weblink1:hover {
+  color:#BF852F;
  }
 
+ .weblink2:hover {
+  color:#097158;
+ }
+
+ .weblink3:hover {
+  color:#b91d1d;
+ }
+
+ .weblink4:hover {
+  color:#404D81;
+ }
+
+ 
  /* writing page */
 .veldt-flex,
 .balloon-flex {
