@@ -578,7 +578,7 @@ background-color:#687E7C;
 
  .dino-flex h3 {
   left:20.5vw;
-  color:#b91d1d;
+  color:#a13939;
  }
 
  .layout-sect p,
@@ -657,7 +657,7 @@ background-color:#687E7C;
  }
 
  .weblink3:hover {
-  color:#b91d1d;
+  color:#a13939;
  }
 
  .weblink4:hover {
@@ -796,8 +796,8 @@ background-color:#687E7C;
   background-color:#926262;
 }
 
-.awards1:hover {
-  animation: slide .8s;
+.yellow-flex:hover .awards2 {
+  animation: slide 1s;
 }
 
 .awards2 {
@@ -828,27 +828,6 @@ background-color:#687E7C;
 
 
 
-
-
-/* .awards {
-  display:flex;
-  margin:3vw 0;
-}
-
-.awards1 {
-  background-color:#B3837C;
-  padding: 3vw 20vw;
-}
-
-.awards2 {
-  background-color:#DABB8D;
-  padding: 2vw 20vw;
-}
-
-.awards3 {
-  background-color:#7F9997;
-  padding: 4vw 20vw;
-}
 .awards h4 {
   font-size:1.5vw;
   font-family: 'be vietnam pro', sans-serif;
@@ -857,15 +836,10 @@ background-color:#687E7C;
   padding-left:4vw;
 }
 
-.awards2 h4 {
-  position:relative;
-  top:2vw;
-} */
 
 @keyframes slide {
   0% {
     transform:translate3d(0,0,0);
-    background-color:#B3837C;
   } 
   100% {
     transform: translate3d(1602px, 0, 0);
@@ -1060,7 +1034,9 @@ h5 {
 }
 
 form {
-  margin: 0 28vw;
+  position:relative;
+  left:14.5vw;
+  margin: 0 45vw 0 15vw;
   background-color:#E4E4E4;
   padding: 2vw 0 3vw 0;
 }
@@ -1070,8 +1046,8 @@ form {
 }
 
 label {
-  font-family: "buenard", sans-serif;
-  font-size:1.5vw;
+  font-family:"be vietnam pro", sans-serif;
+  font-size:1.2vw;
   padding-left:2vw;
 }
 
@@ -1087,28 +1063,32 @@ label {
 }
 
 input {
-  font-size:1.2vw;
+  font-size:1vw;
+  font-weight:normal;
+  font-family:"be vietnam pro", sans-serif;
 }
 
 .message label {
-  padding:0 12vw;
+  padding:0 11vw;
 }
 
 .message {
-  padding: 0 6vw;
+  margin: 0 6vw;
 }
 
-.message input {
-  width:30vw;
-  height:5vw;
-  text-align: start;
+.pads {
+  width:28.5vw;
+  resize:vertical;
+  padding:1vw;
+  height:4vw;
+  font-size:1vw;
 }
 
 .submit {
   float:right;
   margin-right:7vw;
   padding: .2vw .5vw;
-  font-family: "buenard", sans-serif;
+  font-family:"be vietnam pro", sans-serif;
 }
 
 .or,
@@ -1127,7 +1107,7 @@ input {
 
 .mail,
 .text {
-  font-family: "buenard", sans-serif;
+  font-family:"be vietnam pro", sans-serif;
   text-align: center;
   font-size:2vw;
   margin: 1vw 0;

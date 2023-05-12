@@ -34,27 +34,33 @@
             <h3 class="question">?</h3>
             <h3 class="exclaim">!</h3>
         </div>
-        <form method="post" action="">
+        <form method="post" id="SurveyForm" action="https://script.google.com/macros/s/AKfycbw-aPlylPXS1Ihe3L6erEAiJw-hQ-LpKsWQmZJnWvVfKdvjlaEzryHS2uUAGZs1hxxGsQ/exec">
             <div class="fullname">
                 <label for="fullname">Name</label>
-                <input type="text" name="fullname" required> 
+                <input class="fullname" name="Name" type="text" required> 
                 <br>
             </div>
             <div class="email">
                 <label for="email">Email</label>
-                <input type="text" name="email" required>
+                <input class="email" name="Email" type="email" required>
                 <br>  
             </div>
             <div class="message">
                 <label for="message">Message</label>
                 <br>
-                <input type="text" name="message" required> 
+                <textarea name="Message" class="pads" cols="30" rows="10"></textarea>
+                <!-- <input class="pads" type="text" name="Message" required>  -->
                 <br>
             </div>
             <input class="submit" type="submit" value="Submit">
         </form>
     </div>
     </div>
+    <script type="text/javascript">
+
+        window.addEventListener("DOMContentLoaded", function () { const yourForm = document.getElementById('SurveyForm'); yourForm.addEventListener("submit", function (e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }).then(() => { window.location.replace('');  }) }) });
+
+    </script>
     
     <h2 class="or">OR</h2>
     <h2 class="direct">CONTACT ME DIRECTLY</h2>
