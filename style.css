@@ -796,10 +796,6 @@ background-color:#687E7C;
   background-color:#926262;
 }
 
-.yellow-flex:hover .awards2 {
-  animation: slide 1s;
-}
-
 .awards2 {
   background-color:#DABB8D;
 }
@@ -820,20 +816,17 @@ background-color:#687E7C;
   width:15vw;
 }
 
-
-
-
-
-
-
-
-
 .awards h4 {
   font-size:1.5vw;
   font-family: 'be vietnam pro', sans-serif;
   font-weight:normal;
   padding-top:3vw;
   padding-left:4vw;
+  padding-top:6vw;
+}
+
+.awards img {
+  margin-left:5vw
 }
 
 

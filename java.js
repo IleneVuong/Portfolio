@@ -107,3 +107,8 @@ function delay4() {
 // function change(x) {
 //   x.style.animation = "colorSwitch .3s";
 // }
+
+function happen() {
+  let x = document.getElementsByClassName("awards1");
+  x.style.animation = "slide 1s";
+}
