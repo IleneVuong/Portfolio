@@ -16,11 +16,6 @@ function hoverIn(x) {
     x.style.transition = '.3s ease';
 }
 
-// function hoverOut(x) {
-//   x.transition = '20s ease';
-//   x.style.color = 'black';
-// }
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -48,12 +43,67 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// function awardsHover1(x) {
-//   x.style.backgroundColor = '#B3837C';
-//   x.style.animation = 'slide 2s ease-in-out';
-// }
+// portfolio section in index
+function showImage1() {
+  let image = document.getElementById("reduce-img");
+  image.style.display = "block";
+  image.style.animation = "fadeIn .35s";
+}
+function hideImage1() {
+  let image = document.getElementById("reduce-img");
+  image.style.animation = "fadeOut .35s";
+  setTimeout(delay1, 300);
+}
+function delay1() {
+  let image = document.getElementById("reduce-img");
+  image.style.display = "none";
+}
 
-// function awardsOut1(x) {
-//   x.style.backgroundColor = '#e5e5e5';
-// }
+function showImage2() {
+  let image = document.getElementById("dinosaur");
+  image.style.display = "block";
+  image.style.animation = "fadeIn .35s";
+}
+function hideImage2() {
+  let image = document.getElementById("dinosaur");
+  image.style.animation = "fadeOut .35s";
+  setTimeout(delay2, 300);
+}
+function delay2() {
+  let image = document.getElementById("dinosaur");
+  image.style.display = "none";
+}
 
+function showImage3() {
+  let image = document.getElementById("veldt-img");
+  image.style.display = "block";
+  image.style.animation = "fadeIn .35s";
+}
+function hideImage3() {
+  let image = document.getElementById("veldt-img");
+  image.style.animation = "fadeOut .35s";
+  setTimeout(delay3, 300);
+}
+function delay3() {
+  let image = document.getElementById("veldt-img");
+  image.style.display = "none";
+}
+
+function showImage4() {
+  let image = document.getElementById("coco-img");
+  image.style.display = "block";
+  image.style.animation = "fadeIn .35s";
+}
+function hideImage4() {
+  let image = document.getElementById("coco-img");
+  image.style.animation = "fadeOut .35s";
+  setTimeout(delay4, 300);
+}
+function delay4() {
+  let image = document.getElementById("coco-img");
+  image.style.display = "none";
+}
+
+// function change(x) {
+//   x.style.animation = "colorSwitch .3s";
+// }
