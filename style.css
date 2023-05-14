@@ -401,7 +401,7 @@ body {
 }
 
 .link-coco {
-  left:18vw;
+  left:16vw;
 }
 
 .link-reduce:hover,
@@ -421,11 +421,11 @@ background-color:#687E7C;
 }
 
 .veldt {
-  background-color:#A0A4AD;
+  background-color:#B3837C;
 }
 
 .coco {
-  background-color:#B3837C;
+  background-color:#A0A4AD;
 }
 
 .link {
@@ -546,8 +546,6 @@ background-color:#687E7C;
  .flex {
   display:flex;
   flex:wrap;
-  /* justify-content: center; */
-  /* margin: 0 0 0 0vw; */
  }
 
  .flex img {
@@ -693,12 +691,16 @@ background-color:#687E7C;
   margin: 2.5vw 2vw;
 }
 
+.veldt-content p {
+  font-size:1.2vw;
+}
+
 .veldt-content h3 {
   color:#67361E;
 }
 
 .balloon-flex {
-  height:33.7vw;
+  height:34.8vw;
 }
 
 .ball-img1 {
@@ -731,6 +733,7 @@ background-color:#687E7C;
 
 .balloon-content p {
   margin: 0 2vw 2.5vw 2vw;
+  font-size:1.2vw;
 }
 
 .writingbody {
@@ -773,7 +776,7 @@ background-color:#687E7C;
   margin-bottom:.2vw;
 }
 
-.all-awards {
+/* .all-awards {
   display:flex;
   flex-direction:column;
   flex:wrap;
@@ -790,21 +793,10 @@ background-color:#687E7C;
   z-index:-2;
   width:100%;
   height:16vw;
-}
+} */
 
-.awards1 {
-  background-color:#926262;
-}
 
-.awards2 {
-  background-color:#DABB8D;
-}
-
-.awards3 {
-  background-color:#7F9997;
-}
-
-.yellow-flex,
+/* .yellow-flex,
 .green-flex,
 .red-flex {
   display:flex;
@@ -827,8 +819,69 @@ background-color:#687E7C;
 
 .awards img {
   margin-left:5vw
+}  */
+
+
+.abouth2 {
+  text-align:center; 
+  font-family: 'bebas neue', sans-serif;
+  font-size:6vw;
+  letter-spacing:.3vw;
 }
 
+.about-intro {
+  margin: 0 22vw;
+}
+
+.about-subhead {
+  font-family: 'buenard', sans-serif;
+  text-align: center;
+  font-size:2.5vw;
+  font-weight:500;
+  margin-top:6vw;
+  margin-bottom:2vw;
+}
+
+.awards {
+  display:flex;
+  padding: 2vw 20vw;
+  margin-bottom:2vw;
+}
+
+.awards h4 {
+  font-size:1.5vw;
+  font-family: 'be vietnam pro', sans-serif;
+  font-weight:normal;
+  padding-top:3vw;
+  padding-left:4vw;
+}
+
+.awards2 h4 {
+  position:relative;
+  top:1vw;
+  left:1.7vw;
+}
+
+.awards2 img {
+  width:10vw;
+}
+
+.awards3 {
+  padding-top:3vw;
+  padding-bottom:3vw;
+}
+
+/* .awards1 {
+  background-color:#af8686;
+}
+
+.awards2 {
+  background-color:#DABB8D;
+}
+
+.awards3 {
+  background-color:#7F9997;
+}  */
 
 @keyframes slide {
   0% {
@@ -1176,4 +1229,9 @@ footer {
   color:black;
   margin-left:2vw;
   margin-top:.5vw;
+}
+
+::selection {
+  background-color:#252525;
+  color:#E5E5E5;
 }
