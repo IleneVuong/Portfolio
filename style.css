@@ -871,17 +871,17 @@ background-color:#687E7C;
   padding-bottom:3vw;
 }
 
-/* .awards1 {
-  background-color:#af8686;
+.awards1 {
+  background-color:#b0949482;
 }
 
 .awards2 {
-  background-color:#DABB8D;
+  background-color:#dabb8d6b;
 }
 
 .awards3 {
-  background-color:#7F9997;
-}  */
+  background-color:#7f999760;
+} 
 
 @keyframes slide {
   0% {
@@ -1231,7 +1231,48 @@ footer {
   margin-top:.5vw;
 }
 
+.footer-content a {
+  color:black;
+  text-decoration:none;
+}
+
+.footer-content a:hover {
+  text-decoration:underline;
+}
+
 ::selection {
   background-color:#252525;
   color:#E5E5E5;
 }
+
+@media only screen and (max-width:1000px) {
+  .navport {
+    position:relative;
+    bottom:.4vw;
+  }
+}
+@media only screen and (max-width:800px) {
+  .navport {
+    position:relative;
+    bottom:.8vw;
+  }
+}
+@media only screen and (max-width:700px) {
+  .navport {
+    position:relative;
+    bottom:1.2vw;
+  }
+}
+@media only screen and (max-width:500px) {
+  .navport {
+    position:relative;
+    bottom:2.5vw;
+  }
+}
+@media only screen and (max-width:376px) {
+  .navport {
+    position:relative;
+    bottom:3.4vw;
+  }
+}
+
