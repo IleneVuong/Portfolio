@@ -1195,6 +1195,18 @@ input {
   text-decoration:none;
 }
 
+.web a:hover {
+  color:#252525;
+}
+
+.person a:hover {
+  color:#252525;
+}
+
+.write a:hover {
+  color:#252525;
+}
+
 .web h4,
 .person h4,
 .write h4 {
